@@ -1,46 +1,41 @@
 
-# Mental Fatigue Detection System
+# Mental Fatigue Detection System 🧠
 
-## Project Overview
-A Python-based application that estimates mental fatigue levels using user-provided information such as sleep duration, study hours, stress level, and concentration level.
+## Overview
+A Python-based web application that estimates mental fatigue using sleep duration, study hours, stress levels, and concentration levels.
 
 ## Features
+- Interactive web interface using Streamlit
 - User input collection
-- Input validation
+- Input validation through sliders
 - Fatigue score calculation
 - Low, Moderate, and High fatigue classification
 - Personalized recommendations
 
 ## Technologies Used
-- Python 3
-- Conditional Statements
-- Loops
-- Input Validation
-
-## How to Run
-
-1. Install Python 3.
-2. Clone this repository:
-   git clone https://github.com/namratha150706/Mental-Fatigue-Detection.git
-
-3. Navigate to the project folder.
-4. Run the application:
-
-   python main.py
+- Python 3.9
+- Streamlit
 
 ## Project Structure
+- main.py - Command-line application
+- app.py - Streamlit web application
+- requirements.txt - Project dependencies
 
-Mental-Fatigue-Detection/
-|
-|-- main.py
-|-- requirements.txt
-|-- README.md
+## Installation
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+## Run Application
+
+streamlit run app.py
 
 ## Future Enhancements
-- Machine Learning-based fatigue prediction
-- Graphical User Interface
+- Machine Learning-based prediction
 - Data visualization
 - User history tracking
 
 ## Disclaimer
-This project is an educational prototype and is not a medical diagnostic tool.
+Educational prototype only. Not a medical diagnostic tool.
+
