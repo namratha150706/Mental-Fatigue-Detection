@@ -39,3 +39,5 @@ streamlit run app.py
 ## Disclaimer
 Educational prototype only. Not a medical diagnostic tool.
 
+## 🚀 Live Demo
+https://mental-fatigue-detection-nb5ek5c9z6neurvk8reddh.streamlit.app/
